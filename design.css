@@ -1,0 +1,11 @@
+body {
+  background-color: #ad3838;
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.recipe-content {
+  background-color: #157241;
+  padding: 30px;
+}
