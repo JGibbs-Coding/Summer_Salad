@@ -1,11 +1,64 @@
 body {
-  background-color: #ad3838;
-  font-family: "Playwrite AU QLD", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  background-color: crimson;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.recipe-content {
-  background-color: #157241;
-  padding: 30px;
+
+.main-quote {
+  padding: 5px 20px;
+  text-align: center;
+  color: floralwhite;
+  max-width: 800px;
+}
+h1 {
+  padding: 10px 20px;
+  text-align: center;
+  color: floralwhite;
+  max-width: 800px;
+  font-family: ;
+}
+
+h2 {
+  font-weight: bold;
+  color: floralwhite;
+}
+
+.recipe-background {
+  background-color: darkseagreen;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: block;
+  margin: 8px;
+  max-width: 800px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.ingredient-title {
+  font-weight: bold;
+}
+
+.recipe-container {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+
+footer {
+  font-size: small;
+  color: floralwhite;
+  text-align: center;
+  max-width: 800px;
+  padding: 10px 5px;
+}
+a {
+  color: floralwhite;
 }
