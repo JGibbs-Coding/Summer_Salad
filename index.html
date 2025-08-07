@@ -132,7 +132,6 @@ a {
       </div>
 <div>
 <button>Click here for more watermelon recipes</button>
-</a>
 </div>
 </div>    </main>
     </div>
@@ -152,10 +151,10 @@ a {
     </footer>
     <script>
       function searchRecipes (){
-        window.open("https://www.watermelon.org/recipes/", target="_blank");
+        window.open("https://www.watermelon.org/recipes/", "_blank");
       }     
       let searchButton = document.querySelector ("button");
-      searchButton = addEventListener ("click" searchRecipes);
+      searchButton = addEventListener ("click", searchRecipes);
     </script>
   </body>
 </html>
